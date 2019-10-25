@@ -22,6 +22,6 @@ CREATE TABLE Bl_AccountManagement_User
    ID_User INTEGER PRIMARY KEY AUTOINCREMENT,
    Name VARCHAR2(50) NOT NULL,
    Surname VARCHAR2(50) NOT NULL,
-   Birth_year SMALLINT(4) NOT NULL
+   Birth_year SMALLINT(4) NOT NULL -- anno di nascita
    );
 CREATE TABLE sqlite_sequence(name,seq);
